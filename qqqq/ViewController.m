@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor redColor];
+    UIButton *btn=[UIButton buttonWithType:UIButtonTypeSystem];
+    [self.view addSubview:btn];
 }
 
 - (void)didReceiveMemoryWarning {
