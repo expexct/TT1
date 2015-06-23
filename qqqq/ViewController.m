@@ -16,8 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor=[UIColor redColor];
     UIButton *btn=[UIButton buttonWithType:UIButtonTypeSystem];
+    [btn setTitle:@"111" forState:UIControlStateNormal];
+    btn.frame=CGRectMake(200, 200, 100, 50);
+    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [self.view addSubview:btn];
 }
 
